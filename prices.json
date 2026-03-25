@@ -1,0 +1,95 @@
+{
+  "updated": "2026-03-25",
+  "providers": {
+    "mobil": [
+      {
+        "name": "OiSTER",
+        "price": null,
+        "affiliate": "https://go.adt284.net/t/t?a=1666103641&as=2056923302&t=2&tk=1",
+        "tags": [
+          "Fri tale",
+          "5G",
+          "Ingen binding"
+        ],
+        "tp": 4.3,
+        "scraped": false
+      },
+      {
+        "name": "Flexii",
+        "price": 1,
+        "affiliate": "https://go.adt284.net/t/t?a=2025040027&as=2056923302&t=2&tk=1",
+        "tags": [
+          "Fri data",
+          "5G",
+          "Ingen binding"
+        ],
+        "tp": 4.5,
+        "scraped": true
+      },
+      {
+        "name": "eesy",
+        "price": 29,
+        "affiliate": "https://go.adt256.com/t/t?a=1751759538&as=2056923302&t=2&tk=1",
+        "tags": [
+          "5G",
+          "Landsdækkende",
+          "Ingen binding"
+        ],
+        "tp": 4.1,
+        "scraped": true
+      }
+    ],
+    "strom": [
+      {
+        "name": "EWII",
+        "price": null,
+        "affiliate": "https://go.ewii.dk/t/t?a=1897559994&as=2056923302&t=2&tk=1",
+        "tags": [
+          "Variabel",
+          "Grøn strøm",
+          "Ingen binding"
+        ],
+        "tp": 4.2,
+        "scraped": false
+      },
+      {
+        "name": "Norlys",
+        "price": null,
+        "affiliate": "https://to.norlys.dk/t/t?a=1737170062&as=2056923302&t=2&tk=1",
+        "tags": [
+          "Variabel",
+          "Fast pris",
+          "Grøn strøm"
+        ],
+        "tp": 3.6,
+        "scraped": false
+      }
+    ],
+    "internet": [
+      {
+        "name": "Hiper",
+        "price": null,
+        "affiliate": "https://go.adt284.net/t/t?a=1666103641&as=2056923302&t=2&tk=1",
+        "tags": [
+          "Fiber",
+          "1000 Mbit",
+          "Ingen binding"
+        ],
+        "tp": 4.5,
+        "scraped": false
+      },
+      {
+        "name": "Norlys",
+        "price": 200,
+        "affiliate": "https://to.norlys.dk/t/t?a=1737170062&as=2056923302&t=2&tk=1",
+        "tags": [
+          "Fiber",
+          "Kabelnet",
+          "5G/Mobilt"
+        ],
+        "tp": 3.6,
+        "scraped": true
+      }
+    ]
+  }
+}
