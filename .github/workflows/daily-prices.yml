@@ -1,0 +1,32 @@
+name: Daglig prisscraping
+
+on:
+  schedule:
+    - cron: '0 5 * * *'   # Kører kl. 05:00 UTC hver dag
+  workflow_dispatch:        # Manuel kørsel fra GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # Tillader at committe prices.json
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Kør scraper
+        run: python scraper.py
+
+      - name: Commit og push prices.json
+        run: |
+          git config user.name "PriceScraper Bot"
+          git config user.email "bot@tjekdineaftaler.dk"
+          git add prices.json
+          git diff --staged --quiet || git commit -m "Daglig prisopdatering $(date +%Y-%m-%d)"
+          git push
