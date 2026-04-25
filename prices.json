@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-24",
+  "updated": "2026-04-25",
   "providers": {
     "mobil": [
       {
@@ -80,7 +80,7 @@
       },
       {
         "name": "Norlys",
-        "price": null,
+        "price": 200,
         "affiliate": "https://to.norlys.dk/t/t?a=1737170062&as=2056923302&t=2&tk=1",
         "tags": [
           "Fiber",
@@ -88,7 +88,7 @@
           "5G/Mobilt"
         ],
         "tp": 3.6,
-        "scraped": false
+        "scraped": true
       }
     ]
   }
