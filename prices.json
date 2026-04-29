@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-28",
+  "updated": "2026-04-29",
   "providers": {
     "mobil": [
       {
@@ -16,7 +16,7 @@
       },
       {
         "name": "Flexii",
-        "price": 1,
+        "price": 3,
         "affiliate": "https://go.adt284.net/t/t?a=2025040027&as=2056923302&t=2&tk=1",
         "tags": [
           "Fri data",
