@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-03",
+  "updated": "2026-05-04",
   "providers": {
     "mobil": [
       {
@@ -28,7 +28,7 @@
       },
       {
         "name": "eesy",
-        "price": 29,
+        "price": 11,
         "affiliate": "https://go.adt256.com/t/t?a=1751759538&as=2056923302&t=2&tk=1",
         "tags": [
           "5G",
